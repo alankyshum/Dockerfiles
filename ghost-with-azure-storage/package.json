@@ -4,7 +4,10 @@
   "description": "Ghost Blog docker with builtin azure-storage-adapter",
   "main": "index.js",
   "dependencies": {
-    "ghost-azure-storage": "^2.0.0"
+    "azure-storage": "~2.6.0",
+    "bluebird": "^3.5.5",
+    "ghost-storage-base": "0.0.3",
+    "url": "^0.11.0"
   },
   "devDependencies": {},
   "scripts": {
