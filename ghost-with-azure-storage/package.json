@@ -1,0 +1,15 @@
+{
+  "name": "ghost-with-azure-storage",
+  "version": "1.0.0",
+  "description": "Ghost Blog docker with builtin azure-storage-adapter",
+  "main": "index.js",
+  "dependencies": {
+    "ghost-azure-storage": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
